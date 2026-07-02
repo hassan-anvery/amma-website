@@ -315,7 +315,13 @@
         </ul>
       </div>
       <div>
-        <form class="commission-form" id="commission-form" novalidate>
+        <form class="commission-form" id="commission-form"
+              name="commission-enquiry" method="POST"
+              data-netlify="true" netlify-honeypot="bot-field" novalidate>
+          <input type="hidden" name="form-name" value="commission-enquiry" />
+          <p style="display:none">
+            <label>Don't fill this out: <input name="bot-field" tabindex="-1" autocomplete="off" /></label>
+          </p>
           <div class="form-group">
             <label for="c-name">Your Name</label>
             <input type="text" id="c-name" name="name" placeholder="Your full name" required />
@@ -390,7 +396,13 @@
           </a>
         </div>
       </div>
-      <form class="commission-form contact-form" id="contact-form" novalidate>
+      <form class="commission-form contact-form" id="contact-form"
+            name="contact-message" method="POST"
+            data-netlify="true" netlify-honeypot="bot-field" novalidate>
+        <input type="hidden" name="form-name" value="contact-message" />
+        <p style="display:none">
+          <label>Don't fill this out: <input name="bot-field" tabindex="-1" autocomplete="off" /></label>
+        </p>
         <div class="form-group">
           <label for="ct-name">Your Name</label>
           <input type="text" id="ct-name" name="name" placeholder="Your full name" required />
