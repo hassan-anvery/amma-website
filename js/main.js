@@ -43,39 +43,6 @@ if (lightbox) {
   });
 }
 
-// ---- FORMS — Netlify Forms submission via fetch ----
-function submitToNetlify(form, successId) {
-  form.addEventListener('submit', (e) => {
-    e.preventDefault();
-    fetch('/', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      body: new URLSearchParams(new FormData(form)).toString()
-    })
-      .then((res) => {
-        if (res.ok) {
-          const success = document.getElementById(successId);
-          if (success) {
-            success.style.display = 'block';
-            form.reset();
-            setTimeout(() => { success.style.display = 'none'; }, 5000);
-          }
-        } else {
-          alert('Sorry, something went wrong. Please try again.');
-        }
-      })
-      .catch(() => {
-        alert('Sorry, something went wrong. Please try again.');
-      });
-  });
-}
-
-const commissionForm = document.getElementById('commission-form');
-if (commissionForm) submitToNetlify(commissionForm, 'commission-success');
-
-const contactForm = document.getElementById('contact-form');
-if (contactForm) submitToNetlify(contactForm, 'contact-success');
-
 // ---- SMOOTH SCROLL for nav links ----
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   anchor.addEventListener('click', (e) => {
