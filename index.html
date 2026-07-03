@@ -18,7 +18,25 @@
     <span class="tagline">Handcrafted Works &amp; Heirloom Quilts</span>
   </a>
   <ul class="nav-links">
-    <li><a href="#gallery">Gallery</a></li>
+    <li class="nav-has-dropdown">
+      <a href="/work.html">Work</a>
+      <ul class="nav-dropdown" aria-label="Work submenu">
+        <li><a href="/work.html">All Work</a></li>
+        <li><a href="/quilts.html">Quilts</a></li>
+        <li><a href="/bags.html">Bags</a></li>
+        <li><a href="/small-works.html">Small Works</a></li>
+        <li><a href="/wall-hangings.html">Wall Hangings</a></li>
+        <li><a href="/runners.html">Runners</a></li>
+      </ul>
+    </li>
+    <li class="nav-has-dropdown">
+      <a href="/patterns.html">Shop</a>
+      <ul class="nav-dropdown" aria-label="Shop submenu">
+        <li><a href="/patterns.html">Patterns</a></li>
+        <li><a href="/available-works.html">Available Works</a></li>
+      </ul>
+    </li>
+    <li><a href="/blog.html">Blog</a></li>
     <li><a href="#about">About</a></li>
     <li><a href="#commissions">Commissions</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -30,7 +48,29 @@
 
 <div class="nav-mobile" role="navigation" aria-label="Mobile navigation">
   <ul>
-    <li><a href="#gallery">Gallery</a></li>
+    <li class="nav-mobile-group">
+      <button class="nav-mobile-group-toggle" aria-expanded="false" aria-controls="mob-work">
+        Work <span class="toggle-arrow" aria-hidden="true">▾</span>
+      </button>
+      <ul class="nav-mobile-sub" id="mob-work">
+        <li><a href="/work.html">All Work</a></li>
+        <li><a href="/quilts.html">Quilts</a></li>
+        <li><a href="/bags.html">Bags</a></li>
+        <li><a href="/small-works.html">Small Works</a></li>
+        <li><a href="/wall-hangings.html">Wall Hangings</a></li>
+        <li><a href="/runners.html">Runners</a></li>
+      </ul>
+    </li>
+    <li class="nav-mobile-group">
+      <button class="nav-mobile-group-toggle" aria-expanded="false" aria-controls="mob-shop">
+        Shop <span class="toggle-arrow" aria-hidden="true">▾</span>
+      </button>
+      <ul class="nav-mobile-sub" id="mob-shop">
+        <li><a href="/patterns.html">Patterns</a></li>
+        <li><a href="/available-works.html">Available Works</a></li>
+      </ul>
+    </li>
+    <li><a href="/blog.html">Blog</a></li>
     <li><a href="#about">About</a></li>
     <li><a href="#commissions">Commissions</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -73,8 +113,8 @@
 <section class="section featured" id="featured" aria-label="Featured works">
   <div class="section-inner">
     <div class="section-header">
-      <span class="section-eyebrow">Selected Works</span>
-      <h2 class="section-title">Featured <em>Pieces</em></h2>
+      <span class="section-eyebrow">Featured Work</span>
+      <h2 class="section-title">Featured <em>Work</em></h2>
       <div class="section-rule"></div>
     </div>
     <div class="featured-grid">
@@ -113,7 +153,7 @@
 <section class="section gallery" id="gallery" aria-label="Full gallery">
   <div class="section-inner">
     <div class="section-header">
-      <span class="section-eyebrow">The Collection</span>
+      <span class="section-eyebrow">Selected Work</span>
       <h2 class="section-title">All <em>Works</em></h2>
       <div class="section-rule"></div>
     </div>
@@ -199,6 +239,9 @@
         <p class="gallery-card-meta">53″ × 65″ &nbsp;·&nbsp; 100% organic cotton</p>
       </div>
 
+    </div>
+    <div class="gallery-view-all">
+      <a href="/quilts.html">View all quilts &rarr;</a>
     </div>
   </div>
 </section>

@@ -9,10 +9,22 @@ const toggle = document.querySelector('.nav-toggle');
 const mobileNav = document.querySelector('.nav-mobile');
 if (toggle && mobileNav) {
   toggle.addEventListener('click', () => {
-    mobileNav.classList.toggle('open');
+    const isOpen = mobileNav.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', isOpen);
   });
   mobileNav.querySelectorAll('a').forEach(link => {
-    link.addEventListener('click', () => mobileNav.classList.remove('open'));
+    link.addEventListener('click', () => {
+      mobileNav.classList.remove('open');
+      toggle.setAttribute('aria-expanded', 'false');
+    });
+  });
+  mobileNav.querySelectorAll('.nav-mobile-group-toggle').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const sub = document.getElementById(btn.getAttribute('aria-controls'));
+      const expanded = btn.getAttribute('aria-expanded') === 'true';
+      btn.setAttribute('aria-expanded', !expanded);
+      sub.classList.toggle('open', !expanded);
+    });
   });
 }
 

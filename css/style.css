@@ -713,3 +713,104 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { transition: none !important; animation: none !important; }
 }
+
+/* ---- NAV DROPDOWNS ---- */
+.nav-has-dropdown { position: relative; }
+
+.nav-dropdown {
+  display: none;
+  position: absolute;
+  top: calc(100% + 12px);
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(247, 243, 238, 0.97);
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--parchment);
+  padding: 12px 0;
+  list-style: none;
+  min-width: 180px;
+  z-index: 101;
+  box-shadow: 0 8px 32px rgba(28,26,23,0.08);
+}
+
+.nav-has-dropdown:hover .nav-dropdown,
+.nav-has-dropdown:focus-within .nav-dropdown {
+  display: block;
+}
+
+.nav-dropdown li a {
+  display: block;
+  padding: 9px 24px;
+  font-family: var(--font-utility);
+  font-size: 0.62rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  white-space: nowrap;
+  transition: color var(--transition);
+}
+.nav-dropdown li a::after { display: none; }
+.nav-dropdown li a:hover { color: var(--gold); }
+
+/* ---- MOBILE NAV GROUPS ---- */
+.nav-mobile-group { list-style: none; }
+
+.nav-mobile-group-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: var(--font-utility);
+  font-size: 0.78rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  background: none;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  padding: 0;
+}
+
+.nav-mobile-group-toggle .toggle-arrow {
+  font-size: 0.5rem;
+  transition: transform var(--transition);
+}
+.nav-mobile-group-toggle[aria-expanded="true"] .toggle-arrow {
+  transform: rotate(180deg);
+}
+
+.nav-mobile-sub {
+  list-style: none;
+  display: none;
+  flex-direction: column;
+  gap: 14px;
+  padding: 14px 0 4px 16px;
+}
+.nav-mobile-sub.open { display: flex; }
+
+.nav-mobile-sub a {
+  font-family: var(--font-utility);
+  font-size: 0.68rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--mist);
+}
+
+/* ---- GALLERY VIEW-ALL LINK ---- */
+.gallery-view-all {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 24px 0 8px;
+}
+.gallery-view-all a {
+  font-family: var(--font-utility);
+  font-size: 0.65rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--gold);
+  border-bottom: 1px solid var(--gold);
+  padding-bottom: 2px;
+  transition: color var(--transition), border-color var(--transition);
+}
+.gallery-view-all a:hover { color: var(--gold-light); border-color: var(--gold-light); }
