@@ -720,13 +720,13 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
 .nav-dropdown {
   display: none;
   position: absolute;
-  top: calc(100% + 12px);
+  top: 100%;
   left: 50%;
   transform: translateX(-50%);
   background: rgba(247, 243, 238, 0.97);
   backdrop-filter: blur(10px);
   border: 1px solid var(--parchment);
-  padding: 12px 0;
+  padding: 24px 0 12px;
   list-style: none;
   min-width: 180px;
   z-index: 101;
