@@ -430,8 +430,9 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
   position: relative;
   z-index: 1;
   width: 100%;
-  aspect-ratio: 16/9;
+  aspect-ratio: 4 / 5;
   object-fit: cover;
+  object-position: center center;
 }
 .about-text { padding-top: 8px; }
 .about-pull {
