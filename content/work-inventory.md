@@ -89,15 +89,21 @@ Rules:
 | A Hug for Sweet Serene | a-hug-for-sweet-serene | Pending | Pending | Missing | Missing | Pending | No | Folder created |
 | A Sense of Wonder | a-sense-of-wonder | Pending | Pending | Missing | Missing | Pending | No | Folder created |
 | Alaleh University Quilt | alaleh-university-quilt | Pending | Pending | Missing | Missing | Pending | No | Folder created |
-| Blue Mountains Across | blue-mountains-across | Pending | Pending | Missing | Missing | Pending | No | Folder created |
+| Blue Mountains Across Valleys | blue-mountains-across-valleys | Pending | Pending | Missing | Missing | Pending | No | Folder created |
 | Bunches of Blue Tulips | bunches-of-blue-tulips | Pending | Pending | Missing | Missing | Pending | No | Folder created |
+| Daniyaal's Childhood | daniyaals-childhood | Pending | Pending | Missing | Missing | Pending | No | Folder created |
+| For the Love of Hydrangeas | for-the-love-of-hydrangeas | Pending | Pending | Missing | Missing | Pending | No | Folder created |
+| Khala's Quilts | khalas-quilts | Pending | Pending | Missing | Missing | Pending | No | Folder created |
+| Magical Mystical Maryam | magical-mystical-maryam | Pending | Pending | Missing | Missing | Pending | No | Folder created |
+| Night Conversations | night-conversations | Pending | Pending | Missing | Missing | Pending | No | Folder created |
 | One Hundred Squares | one-hundred-squares | Pending | Pending | Missing | Missing | Pending | No | Folder created |
 | Rings of Terracotta | rings-of-terracotta | Pending | Pending | Missing | Missing | Pending | No | Folder created |
 | Spirited Adventures | spirited-adventures | Pending | Pending | Missing | Missing | Pending | No | Folder created |
 | Stories of Love | stories-of-love | Pending | Pending | Missing | Missing | Pending | No | Folder created |
-| Sundar Naari | sundar-naari | Pending | Pending | Missing | Missing | Pending | No | Folder created |
+| Tasha's Embrace | tashas-embrace | Pending | Pending | Missing | Missing | Pending | No | Folder created |
 | Twilight Skies | twilight-skies | Pending | Pending | Missing | Missing | Pending | No | Folder created |
 | Zhara's Quilt | zharas-quilt | Pending | Pending | Missing | Missing | Pending | No | Folder created |
+| Zikr Series – Quiet Hours of the Morning | zikr-series-quiet-hours-of-the-morning | Pending | Pending | Missing | Missing | Pending | No | Folder created |
 
 ## Bags
 
