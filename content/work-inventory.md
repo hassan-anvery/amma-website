@@ -85,25 +85,32 @@ Rules:
 
 | Title | Slug | Size | Time to Make | Main Image | Detail Images | Write-up | Ready for Website | Notes |
 |---|---|---|---|---|---|---|---|---|
-| 2880 Squares | 2880-squares | Pending | Pending | Missing | Missing | Pending | No | Folder created |
-| A Hug for Sweet Serene | a-hug-for-sweet-serene | Pending | Pending | Missing | Missing | Pending | No | Folder created |
-| A Sense of Wonder | a-sense-of-wonder | Pending | Pending | Missing | Missing | Pending | No | Folder created |
-| Alaleh University Quilt | alaleh-university-quilt | Pending | Pending | Missing | Missing | Pending | No | Folder created |
-| Blue Mountains Across Valleys | blue-mountains-across-valleys | Pending | Pending | Missing | Missing | Pending | No | Folder created |
-| Bunches of Blue Tulips | bunches-of-blue-tulips | Pending | Pending | Missing | Missing | Pending | No | Folder created |
-| Daniyaal's Childhood | daniyaals-childhood | Pending | Pending | Missing | Missing | Pending | No | Folder created |
-| For the Love of Hydrangeas | for-the-love-of-hydrangeas | Pending | Pending | Missing | Missing | Pending | No | Folder created |
-| Khala's Quilts | khalas-quilts | Pending | Pending | Missing | Missing | Pending | No | Folder created |
-| Magical Mystical Maryam | magical-mystical-maryam | Pending | Pending | Missing | Missing | Pending | No | Folder created |
-| Night Conversations | night-conversations | Pending | Pending | Missing | Missing | Pending | No | Folder created |
-| One Hundred Squares | one-hundred-squares | Pending | Pending | Missing | Missing | Pending | No | Folder created |
-| Rings of Terracotta | rings-of-terracotta | Pending | Pending | Missing | Missing | Pending | No | Folder created |
-| Spirited Adventures | spirited-adventures | Pending | Pending | Missing | Missing | Pending | No | Folder created |
-| Stories of Love | stories-of-love | Pending | Pending | Missing | Missing | Pending | No | Folder created |
-| Tasha's Embrace | tashas-embrace | Pending | Pending | Missing | Missing | Pending | No | Folder created |
-| Twilight Skies | twilight-skies | Pending | Pending | Missing | Missing | Pending | No | Folder created |
-| Zhara's Quilt | zharas-quilt | Pending | Pending | Missing | Missing | Pending | No | Folder created |
-| Zikr Series – Quiet Hours of the Morning | zikr-series-quiet-hours-of-the-morning | Pending | Pending | Missing | Missing | Pending | No | Folder created |
+| 2880 Squares | 2880-squares | Pending | Pending | Present | Present | Pending | No | |
+| A Hug for Sweet Serene | a-hug-for-sweet-serene | Pending | Pending | Present | Present | Pending | No | |
+| A Sense of Wonder | a-sense-of-wonder | Pending | Pending | Present | Present | Pending | No | |
+| Alaleh University Quilt | alaleh-university-quilt | Pending | Pending | Present | Present | Pending | No | |
+| Blue Mountains Across Valleys | blue-mountains-across-valleys | Pending | Pending | Present | Present | Pending | No | |
+| Bunches of Blue Tulips | bunches-of-blue-tulips | Pending | Pending | Present | Present | Pending | No | |
+| Daniyaal's Childhood | daniyaals-childhood | Pending | Pending | Present | Present | Pending | No | |
+| For the Love of Hydrangeas | for-the-love-of-hydrangeas | Pending | Pending | Present | Present | Pending | No | |
+| Khala's Quilts | khalas-quilts | Pending | Pending | Needs selection | Present | Pending | No | Choose between main-1.jpg and main-2.jpg before website implementation |
+| Magical Mystical Maryam | magical-mystical-maryam | Pending | Pending | Present | Present | Pending | No | |
+| Night Conversations | night-conversations | Pending | Pending | Present | Present | Pending | No | |
+| One Hundred Squares | one-hundred-squares | Pending | Pending | Present | Present | Pending | No | |
+| Rings of Terracotta | rings-of-terracotta | Pending | Pending | Present | Present | Pending | No | |
+| Spirited Adventures | spirited-adventures | Pending | Pending | Present | Present | Pending | No | |
+| Stories of Love | stories-of-love | Pending | Pending | Present | Present | Pending | No | |
+| Tasha's Embrace | tashas-embrace | Pending | Pending | Needs selection | Present | Pending | No | Choose between main-1.jpg and main-2.jpg before website implementation |
+| Twilight Skies | twilight-skies | Pending | Pending | Present | Present | Pending | No | |
+| Zhara's Quilt | zharas-quilt | Pending | Pending | Present | Present | Pending | No | |
+| Zikr Series – Quiet Hours of the Morning | zikr-series-quiet-hours-of-the-morning | Pending | Pending | Present | Present | Pending | No | |
+| Abba's 80th Birthday Quilt | abbas-80th-birthday-quilt | Pending | Pending | Present | Present | Pending | No | |
+| Farahjee's Quilt | farahjees-quilt | Pending | Pending | Present | Present | Pending | No | |
+| Hugs and Kisses | hugs-and-kisses | Pending | Pending | Present | Present | Pending | No | |
+| Sunniya Quilt | sunniya-quilt | Pending | Pending | Present | Present | Pending | No | |
+| The Great Lakes | the-great-lakes | Pending | Pending | Present | Present | Pending | No | |
+| The Quilt and I | the-quilt-and-i | Pending | Pending | Present | Present | Pending | No | |
+| Twister | twister | Pending | Pending | Present | Present | Pending | No | |
 
 ## Bags
 
