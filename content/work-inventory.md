@@ -103,7 +103,7 @@ Rules:
 | Tasha's Embrace | tashas-embrace | Pending | Pending | Present | Present | Pending | No | |
 | Twilight Skies | twilight-skies | Pending | Pending | Present | Present | Pending | No | |
 | Zhara's Quilt | zharas-quilt | Pending | Pending | Present | Present | Pending | No | |
-| Zikr Series: Evening Tea in the Indoor Veranda | zikr-series-evening-tea-in-the-indoor-veranda | Pending | Pending | Present | Present | Present | No | |
+| Zikr Series: Evening Tea in the Indoor Veranda | zikr-series-evening-tea-in-the-indoor-veranda | Pending | Pending | Present | Present | Present | No | Classified as quilt (Suraiya confirmed); source PDF describes as patchwork runner |
 | Abba's 80th Birthday Quilt | abbas-80th-birthday-quilt | Pending | Pending | Present | Present | Pending | No | |
 | Farahjee's Quilt | farahjees-quilt | Pending | Pending | Present | Present | Pending | No | |
 | Hugs and Kisses | hugs-and-kisses | Pending | Pending | Present | Present | Pending | No | |

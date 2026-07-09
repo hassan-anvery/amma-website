@@ -1,5 +1,7 @@
 # Zikr Series: Evening Tea in the Indoor Veranda
 
+> **Archive classification:** Quilt (confirmed by Suraiya). The source PDF describes this piece as a patchwork runner; however, Suraiya has confirmed it should be classified as a quilt in the website archive.
+
 Size:18.5 x 59.5 inches (47 x 151cm) approximately 
 Time taken: 4-5 weeks 
 
