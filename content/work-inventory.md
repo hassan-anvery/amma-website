@@ -103,7 +103,7 @@ Rules:
 | Tasha's Embrace | tashas-embrace | Pending | Pending | Needs selection | Present | Pending | No | Choose between main-1.jpg and main-2.jpg before website implementation |
 | Twilight Skies | twilight-skies | Pending | Pending | Present | Present | Pending | No | |
 | Zhara's Quilt | zharas-quilt | Pending | Pending | Present | Present | Pending | No | |
-| Zikr Series – Quiet Hours of the Morning | zikr-series-quiet-hours-of-the-morning | Pending | Pending | Present | Present | Present | No | |
+| Zikr Series: Evening Tea in the Indoor Veranda | zikr-series-evening-tea-in-the-indoor-veranda | Pending | Pending | Present | Present | Present | No | |
 | Abba's 80th Birthday Quilt | abbas-80th-birthday-quilt | Pending | Pending | Present | Present | Pending | No | |
 | Farahjee's Quilt | farahjees-quilt | Pending | Pending | Present | Present | Pending | No | |
 | Hugs and Kisses | hugs-and-kisses | Pending | Pending | Present | Present | Pending | No | |
