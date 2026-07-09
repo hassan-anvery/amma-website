@@ -93,14 +93,14 @@ Rules:
 | Bunches of Blue Tulips | bunches-of-blue-tulips | Pending | Pending | Present | Present | Pending | No | |
 | Daniyaal's Childhood | daniyaals-childhood | Pending | Pending | Present | Present | Present | No | |
 | For the Love of Hydrangeas | for-the-love-of-hydrangeas | Pending | Pending | Present | Present | Pending | No | |
-| Khala's Quilts | khalas-quilts | Pending | Pending | Needs selection | Present | Pending | No | Choose between main-1.jpg and main-2.jpg before website implementation |
+| Khala's Quilts | khalas-quilts | Pending | Pending | Present | Present | Pending | No | |
 | Magical Mystical Maryam | magical-mystical-maryam | Pending | Pending | Present | Present | Pending | No | |
 | Night Conversations | night-conversations | Pending | Pending | Present | Present | Pending | No | |
 | One Hundred Squares | one-hundred-squares | Pending | Pending | Present | Present | Pending | No | |
 | Rings of Terracotta | rings-of-terracotta | Pending | Pending | Present | Present | Present | No | |
 | Spirited Adventures | spirited-adventures | Pending | Pending | Present | Present | Pending | No | |
 | Stories of Love | stories-of-love | Pending | Pending | Present | Present | Present | No | |
-| Tasha's Embrace | tashas-embrace | Pending | Pending | Needs selection | Present | Pending | No | Choose between main-1.jpg and main-2.jpg before website implementation |
+| Tasha's Embrace | tashas-embrace | Pending | Pending | Present | Present | Pending | No | |
 | Twilight Skies | twilight-skies | Pending | Pending | Present | Present | Pending | No | |
 | Zhara's Quilt | zharas-quilt | Pending | Pending | Present | Present | Pending | No | |
 | Zikr Series: Evening Tea in the Indoor Veranda | zikr-series-evening-tea-in-the-indoor-veranda | Pending | Pending | Present | Present | Present | No | |
