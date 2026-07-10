@@ -1,7 +1,9 @@
 // ---- NAV SCROLL ----
 const nav = document.querySelector('.nav');
+const hasHero = !!document.querySelector('.hero');
+if (!hasHero) nav.classList.add('scrolled');
 window.addEventListener('scroll', () => {
-  nav.classList.toggle('scrolled', window.scrollY > 40);
+  if (hasHero) nav.classList.toggle('scrolled', window.scrollY > 40);
 });
 
 // ---- MOBILE NAV ----
