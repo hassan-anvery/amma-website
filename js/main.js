@@ -69,3 +69,34 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     }
   });
 });
+
+// ---- QUILT ARCHIVE REVEAL ----
+const quiltGrid = document.querySelector('[data-quilt-grid]');
+const loadMoreBtn = document.querySelector('[data-load-more-quilts]');
+const backToTopBtn = document.querySelector('[data-quilt-back-to-top]');
+
+if (quiltGrid && loadMoreBtn && backToTopBtn) {
+  const cards = Array.from(quiltGrid.querySelectorAll('.quilt-card'));
+  const batchSize = 4;
+  let visible = 0;
+
+  function showNext() {
+    cards.slice(visible, visible + batchSize).forEach(c => c.classList.remove('is-hidden'));
+    visible = Math.min(visible + batchSize, cards.length);
+    if (visible >= cards.length) {
+      loadMoreBtn.classList.add('is-hidden');
+      backToTopBtn.classList.remove('is-hidden');
+    }
+  }
+
+  cards.forEach(c => c.classList.add('is-hidden')); // hide all on load
+  showNext();                                         // reveal first batch
+
+  loadMoreBtn.addEventListener('click', showNext);
+
+  backToTopBtn.addEventListener('click', () => {
+    const target = document.getElementById('quilts-top');
+    const top = target.getBoundingClientRect().top + window.scrollY - 80;
+    window.scrollTo({ top, behavior: 'smooth' });
+  });
+}
