@@ -6,46 +6,30 @@ This file tracks the works planned for Suraiya Anvery's website, including categ
 
 This is a planning/content-management document. It does not automatically update the live website.
 
-## Planned Main Navigation
+## Main Navigation
 
-Future main nav:
+Current live nav:
 
 - Home
-- Work
-- Exhibitions
+- Work (dropdown trigger)
 - About
+- Commissions
 - Contact
 
-Important notes:
+Work navigation is implemented and approved:
 
-- Work should function as a dropdown/menu trigger, not as a direct clickable link.
-- On desktop, Work should open the dropdown on hover and keyboard focus.
-- On mobile, tapping Work should expand/collapse the submenu.
+- Work functions as a dropdown trigger, not a standalone navigation destination.
+- On desktop, hovering or focusing Work opens the submenu.
+- On mobile, tapping Work expands or collapses the submenu.
 - The Work submenu items are the actual clickable links.
-- Exhibitions should become its own main navigation item, separate from Work.
 
-## Planned Work Dropdown
+Planned future additions:
 
-The Work dropdown should contain exactly:
+- Exhibitions as its own main navigation item, separate from Work.
 
-- Quilts
-- Bags
-- Pouches
-- Table Runners
-- Everyday Essentials
+## Work Dropdown
 
-The following old/current labels should eventually be removed or replaced:
-
-- All Work
-- Small Works
-- Wall Hangings as a top-level Work dropdown item
-- Runners as a label; use Table Runners instead
-
-## Work Overview Page / Section
-
-The old "All Work" gallery should eventually be removed.
-
-It should be replaced by a Work overview with one category card per Work category:
+The Work dropdown is live and contains:
 
 - Quilts
 - Bags
@@ -53,14 +37,18 @@ It should be replaced by a Work overview with one category card per Work categor
 - Table Runners
 - Everyday Essentials
 
-Each category card should eventually include:
+All five items link to pages that exist. Old labels (All Work, Small Works, Wall Hangings as a top-level item, Runners) have been removed.
 
-- One representative image
-- Category title
-- Short category description
-- Link/button to that category page
+## Work Overview
 
-This overview should introduce the types of work Suraiya makes. It should not try to display every individual item.
+Five category cards are live in the homepage "All Works" section (`index.html#gallery`). Each card currently includes placeholder descriptive copy and a link to the category page.
+
+Pending content:
+
+- Representative images for each category card
+- Final category descriptions (Suraiya's input needed)
+
+"Return to All Works" links on category pages target this section.
 
 ## Image Naming Convention
 
@@ -91,7 +79,7 @@ Rules:
 | Alaleh University Quilt | alaleh-university-quilt | Pending | Pending | Present | Present | Pending | No | |
 | Blue Mountains Across Valleys | blue-mountains-across-valleys | Pending | Pending | Present | Present | Pending | No | |
 | Bunches of Blue Tulips | bunches-of-blue-tulips | Pending | Pending | Present | Present | Pending | No | |
-| Daniyaal's Childhood | daniyaals-childhood | Pending | Pending | Present | Present | Present | No | |
+| Daniyaal's Childhood | daniyaals-childhood | Pending | Pending | Present | Present | Present | No | Selected as Phase 4 pilot individual quilt page |
 | For the Love of Hydrangeas | for-the-love-of-hydrangeas | Pending | Pending | Present | Present | Pending | No | |
 | Khala's Quilts | khalas-quilts | Pending | Pending | Present | Present | Pending | No | |
 | Magical Mystical Maryam | magical-mystical-maryam | Pending | Pending | Present | Present | Pending | No | |
@@ -103,7 +91,7 @@ Rules:
 | Tasha's Embrace | tashas-embrace | Pending | Pending | Present | Present | Pending | No | |
 | Twilight Skies | twilight-skies | Pending | Pending | Present | Present | Pending | No | |
 | Zhara's Quilt | zharas-quilt | Pending | Pending | Present | Present | Pending | No | |
-| Zikr Series: Evening Tea in the Indoor Veranda | zikr-series-evening-tea-in-the-indoor-veranda | Pending | Pending | Present | Present | Present | No | Classified as quilt (Suraiya confirmed); source PDF describes as patchwork runner |
+| Zikr Series: Evening Tea in the Indoor Veranda | zikr-series-evening-tea-in-the-indoor-veranda | Pending | Pending | Present | Present | Present | No | Classified as quilt (confirmed by Suraiya) |
 | Abba's 80th Birthday Quilt | abbas-80th-birthday-quilt | Pending | Pending | Present | Present | Pending | No | |
 | Farahjee's Quilt | farahjees-quilt | Pending | Pending | Present | Present | Pending | No | |
 | Hugs and Kisses | hugs-and-kisses | Pending | Pending | Present | Present | Pending | No | |

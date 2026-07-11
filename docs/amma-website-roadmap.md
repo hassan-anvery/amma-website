@@ -38,7 +38,10 @@ The following has been completed as of the time of this document:
   - Stories of Love
   - Zikr Series: Evening Tea in the Indoor Veranda
 - Zikr naming mismatch corrected: slug and folder renamed from `zikr-series-quiet-hours-of-the-morning` to `zikr-series-evening-tea-in-the-indoor-veranda`
-- Visible website redesign has not yet started from this content archive
+- Work navigation with dropdown (desktop hover/focus, mobile expand/collapse) built and approved
+- Homepage Work overview with five category cards built and approved
+- Quilts archive page with progressive reveal built and approved
+- Desktop and mobile QA completed for Phase 2 and Phase 3
 
 ---
 
@@ -83,62 +86,72 @@ The following has been completed as of the time of this document:
 
 ## 5. Phase 2 – Navigation and Work Overview
 
-This is the next phase of visible website work.
+**Status: Complete and approved.**
 
-### Navigation Changes
+### Navigation
 
-- Update Work navigation so that "Work" is a hover-only desktop heading, not a normal clickable link
-- On desktop: hovering or focusing "Work" opens the dropdown
-- On mobile: tapping "Work" expands or collapses the submenu
-- Work dropdown categories:
+- Work functions as a dropdown trigger, not a standalone navigation destination
+- On desktop: hovering or focusing Work opens the submenu
+- On mobile: tapping Work expands or collapses the submenu
+- The Work submenu contains five items, all linking to pages that exist:
   - Quilts
   - Bags
   - Pouches
   - Table Runners
   - Everyday Essentials
-- Consider adding Exhibitions as a separate main navigation item (separate from the Work dropdown)
-- Remove old labels: All Work, Small Works, Wall Hangings (as a top-level item), Runners
+- Desktop and mobile navigation tested and approved
 
-### Work Overview Page
+### Work Overview
 
-- Replace the old "All Work" gallery with a Work overview page built from category cards
-- One card per Work category:
-  - Quilts
-  - Bags
-  - Pouches
-  - Table Runners
-  - Everyday Essentials
-- Each category card should include:
-  - One representative image
-  - Category title
-  - Short category description (needs Suraiya's input)
-  - Link or button to that category page
+- Five category cards are live in the homepage "All Works" section (`index.html#gallery`)
+- Each card includes a category title, placeholder descriptive copy, and a link to the category page
+- Representative images and final category descriptions are pending content (Suraiya's input needed)
+- "Return to All Works" links on category pages correctly target this section
 
 ---
 
 ## 6. Phase 3 – Quilts Category Page
 
-- Build a Quilts grid page listing individual quilts
-- Layout: rows of three on desktop; mobile-friendly responsive layout
-- Each quilt card should show:
-  - Main image
-  - Title
-  - Size (if available)
-  - Time to make (if available)
-- If metadata fields are missing, hide them gracefully rather than showing placeholder text
-- Display the first 6 quilts by default; "See more" reveals 3 additional quilts at a time
-- Only link a quilt card to a detail page when a detail/write-up page exists — unless placeholder pages are explicitly approved by Suraiya
+**Status: Complete and approved.**
+
+### Quilts archive (quilts.html)
+
+- Text-only archive listing all 26 quilts; images to be added when ready
+- Layout: rows of three on desktop; two-column and single-column at smaller sizes
+- Four quilts visible on initial load
+- "View More Quilts" reveals four additional quilts per click
+- Previously revealed quilts remain visible
+- "View More Quilts" disappears after all 26 quilts are revealed
+- "Back to Top" appears only after all 26 quilts are revealed
+- "Back to Top" scrolls to the top of the archive
+- "Return to All Works" links back to the homepage gallery section
+- Progressive reveal tested and approved at mobile sizes
+- Quilt cards do not yet link to individual pages
+
+### Other category pages
+
+Bags, Pouches, Table Runners, and Everyday Essentials have placeholder "coming soon" pages. They are reachable from the navigation but are not developed archives. Their equivalent Phase 3 work is still ahead.
+
+When images are added to quilt cards:
+- Each card should show the main image, title, and any available metadata (size, time to make)
+- Hide metadata fields gracefully if not yet available — do not show placeholder text
+- Only link a quilt card to a detail page when a detail page exists
 
 ---
 
 ## 7. Phase 4 – Individual Quilt Pages
 
-Start with the four quilts that already have write-up drafts:
+**Status: Active phase.**
 
-1. Daniyaal's Childhood – A Visual Narrative
-2. Rings of Terracotta
-3. Stories of Love
-4. Zikr Series: Evening Tea in the Indoor Veranda
+### Pilot page
+
+Daniyaal's Childhood has been selected and approved as the pilot individual quilt page. The pilot will establish the reusable detail-page pattern for all future quilt pages. Each subsequent page requires Suraiya's content and design approval before going public.
+
+Once the pilot is approved, the pattern will be applied to the remaining three written-up quilts in this order:
+
+1. Rings of Terracotta
+2. Stories of Love
+3. Zikr Series: Evening Tea in the Indoor Veranda
 
 ### Page Structure
 
@@ -162,7 +175,7 @@ Each individual quilt page should include:
 
 - Build a Bags category page using the same grid logic as Quilts
 - Build a Pouches page once titles and types are finalized with Suraiya
-- Build a Table Runners page — note: consider whether Zikr Series: Evening Tea in the Indoor Veranda belongs under Table Runners rather than (or in addition to) Quilts
+- Build a Table Runners page
 - Build an Everyday Essentials page; consider possible subgroups:
   - Wall hangings
   - Coasters
@@ -173,6 +186,8 @@ Each individual quilt page should include:
 ---
 
 ## 9. Phase 6 – Featured Works
+
+**Status: Pending.** Suraiya has not yet made her final selection of three featured works. This phase will begin after that selection is made.
 
 - The homepage Featured Works section should display three selected pieces
 - Each card should include:
@@ -235,20 +250,20 @@ The following are future possibilities, to be considered as the site grows:
 
 ## 13. Recommended Immediate Next Steps
 
-1. Sync `main` locally after all current PRs are merged
-2. Run a full content archive audit — verify all 26 quilt folders, confirm inventory matches filesystem
-3. Resolve main image selection for `khalas-quilts` and `tashas-embrace`
-4. Build updated Work navigation (hover dropdown, mobile expand/collapse) and Work overview category cards
-5. Build the Quilts grid category page
-6. Build the first four individual quilt detail pages using the write-up drafts already in place
+1. Prepare and verify the content and selected photographs for Daniyaal's Childhood
+2. Build the pilot individual quilt page on its own feature branch
+3. Review the pilot locally on desktop and mobile
+4. Obtain Suraiya's approval
+5. Deploy only after approval
+6. Use the approved pattern for the remaining written-up quilts
+7. Finalize the three homepage Featured Works afterward
 
 ---
 
 ## 14. Open Questions / Decisions Needed From Suraiya
 
-- **Category descriptions** — Short descriptions for each Work category card (Quilts, Bags, Pouches, Table Runners, Everyday Essentials)
+- **Category descriptions** — Final copy for each of the five Work category cards (Quilts, Bags, Pouches, Table Runners, Everyday Essentials)
 - **Featured Works selection** — Which three works should appear on the homepage?
-- **Zikr classification** — Does Zikr Series: Evening Tea in the Indoor Veranda belong under Quilts, Table Runners, or both?
 - **Size and time-to-make metadata** — Can Suraiya provide or confirm these for the 26 quilts?
 - **Main image choices** — Final selection between `main-1.jpg` and `main-2.jpg` for `khalas-quilts` and `tashas-embrace`
 - **Works without write-ups** — Should quilt cards link to pages even when no write-up is available, or only when a write-up exists?
