@@ -1240,19 +1240,6 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
   display: block;
 }
 
-/*
-  Process image captions — standalone; works inside .qd-flow figures,
-  .qd-image-pair, and .qd-gallery-grid without container dependency.
-*/
-figure.is-process figcaption {
-  font-family: var(--font-utility);
-  font-size: 0.58rem;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--mist);
-  margin-top: 10px;
-}
-
 /* --- Closing gallery --- */
 
 .qd-gallery {
@@ -1279,6 +1266,7 @@ figure.is-process figcaption {
   width: 100%;
   height: auto;
   display: block;
+  transform: rotate(90deg);
 }
 
 /* --- Responsive --- */
